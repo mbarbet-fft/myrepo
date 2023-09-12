@@ -1,0 +1,12 @@
+name: Call a reusable workflow
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+  
+jobs:
+  call-workflow:
+    uses: mbarbet-fft/reusable_workflow/.github/workflows/reusable_worflow.yml
