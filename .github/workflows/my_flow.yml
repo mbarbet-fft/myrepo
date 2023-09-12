@@ -9,4 +9,4 @@ on:
   
 jobs:
   call-workflow:
-    uses: mbarbet-fft/reusable_workflow/.github/workflows/reusable_worflow.yml
+    uses: mbarbet-fft/reusable_workflow/.github/workflows/reusable_worflow.yml@v1
